@@ -1,0 +1,64 @@
+@font-face {
+  font-family: figtree;
+  src: url("./blog-preview-card-main/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+body{
+  background-color: rgb(245, 208, 78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "figtree", sans-serif;
+  color: hsl(0, 0%, 7%);
+}
+.container{
+  background-color: white;
+  width: 18%;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 8px 0px;
+}
+.layout-img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 6px;
+}
+h2{
+  font-weight: 700;
+  transition: 0.1s ease-in-out;
+
+}
+h2:hover{
+  color: rgb(245, 208, 78);
+  cursor: pointer;
+}
+
+
+.text{
+  background-color:rgb(245, 208, 78);
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.publicity-date{
+  margin-top: 2px;
+}
+.context{
+  color: hsl(0, 0%, 42%);
+  line-height: 1.5;
+}
+
+.bottom-section{
+  display: flex;
+  align-items: center;
+}
+.name{
+  margin-left: 10px;
+  font-weight: 700;
+}
