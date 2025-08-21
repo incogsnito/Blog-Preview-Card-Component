@@ -23,7 +23,7 @@ body{
   transition: 0.25s ease-in-out;
 }
 .container:hover{
-  transform: translateY(5px) translateX(7px);
+  transform: translateY(5px) translateX(-7px);
   
 }
 .layout-img{
@@ -68,6 +68,7 @@ h2:hover{
   margin-left: 10px;
   font-weight: 700;
 }
+
 
 
 
